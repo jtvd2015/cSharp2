@@ -19,8 +19,9 @@ namespace ConsoleApp6
             stringWidth = Console.ReadLine();
             Width = decimal.Parse(stringWidth);
             
-
-            Console.WriteLine("The Area is: " + Length * Width);
+            decimal Area = Length * Width;
+            
+            Console.WriteLine("The Area is: " + Area);
             Console.ReadLine();
         }
     }
